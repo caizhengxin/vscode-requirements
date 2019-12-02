@@ -1,0 +1,33 @@
+{
+    "name": "vscode-requirements",
+    "displayName": "vscode-requirements",
+    "description": "vscode requirements ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pip-requirements",
+            "aliases": ["pip requirements", "requirements.txt"],
+            "extensions": [".txt"],
+            "filenames": [
+                "requirements.txt",
+                "constraints.txt",
+                "requirements.in"
+            ],
+            "filenamePatterns": [
+                "requirements/*.txt"
+            ],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pip-requirements",
+            "scopeName": "source.pip-requirements",
+            "path": "./syntaxes/pip-requirements.tmLanguage.json"
+        }]
+    }
+}
