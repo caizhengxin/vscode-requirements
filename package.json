@@ -2,12 +2,36 @@
     "name": "vscode-requirements",
     "displayName": "vscode-requirements",
     "description": "vscode requirements ",
-    "version": "0.0.1",
+    "version": "0.1.0",
+    "publisher": "jankincai",
+    "author": {
+        "name": "JanKinCai",
+        "email": "jankincai12@gmail.com",
+        "url": "https://github.com/caizhengxin/"
+    },
+	"homepage": "https://github.com/caizhengxin/vscode-requirements",
+    "license": "BSD",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/caizhengxin/vscode-requirements"
+    },
+	"bugs": {
+		"url": "https://github.com/caizhengxin/vscode-requirements/issues",
+		"email": "jankincai12@gmail.com"
+    },
+    "icon": "images/pip-requirements.png",
     "engines": {
         "vscode": "^1.40.0"
     },
     "categories": [
         "Programming Languages"
+    ],
+    "keywords": [
+        "vscode-requirements",
+        "requirements",
+        "pip-requirements",
+        "python",
+        "constraints"
     ],
     "contributes": {
         "languages": [{
