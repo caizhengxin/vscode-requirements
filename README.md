@@ -1,4 +1,6 @@
-# vscode-requirements README
+# vscode-requirements
+
+[![Markeetplace Badge][marketplace-badge]][marketplace] [![Install][install-badge]][marketplace] ![Size][size-badge] [![BSD License Badge][license-badge]][license]
 
 pip requirements
 
@@ -9,3 +11,11 @@ pip requirements
 ![pip-requirements](images/pip-requirements.png)
 
 ## Extension Settings
+
+
+[marketplace]: https://marketplace.visualstudio.com/items?itemName=jankincai.vscode-requirements#review-details
+[marketplace-badge]: https://vsmarketplacebadge.apphb.com/version-short/jankincai.vscode-requirements.svg?style=flat-square
+[install-badge]: https://vsmarketplacebadge.apphb.com/installs-short/jankincai.vscode-requirements.svg?style=flat-square
+[size-badge]: https://img.shields.io/github/languages/code-size/caizhengxin/vscode-requirements
+[license]: ./LICENSE
+[license-badge]: https://img.shields.io/badge/license-BSD-blue.svg
